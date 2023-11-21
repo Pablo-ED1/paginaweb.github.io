@@ -1,0 +1,35 @@
+.section4{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(236, 236, 236);
+    color: black;
+    border-radius: 15px;
+    opacity: 85%;
+    margin: 40px 25px;
+}
+
+
+.forms{
+    display: flex;
+    padding: 10px;
+}
+
+@media (max-width:768px){
+    .forms{
+        flex-direction: column;
+    }
+    .form1{
+        padding-bottom: 20px;
+    
+    }
+}

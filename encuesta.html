@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Juegos de mesa</title>
+</head>
+<body>
+    <header id="section1">
+        <div class="logo">
+            <img src="./images/logo.png" class="logo-imagen">
+            <h2 class="logo-nombre">Juegos de mesa</h2>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="tipos.html">Tipos</a>
+            <a href="pasion.html">Mi pasión</a>
+            <a href="encuesta.html">Encuesta</a>
+        </nav>
+    </header>
+
+    <section class="section4" id="section4">
+        <form>
+            <h1>Encuesta</h1>
+            <div class="forms">
+                <div class="form1">
+                    <label class="label">Nombre&nbsp;</label>
+                    <input required type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç ]+" title="Ingresa un nombre válido">
+                </div>
+                <div class="form2">
+                    <label class="label">&nbsp;Apodo&nbsp;</label>
+                    <input required type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç1234567890-_. ]+" title="Ingresa un apodo válido">
+                </div>
+            </div>
+            <div class = "forms">
+                <label class="label">Correo electrónico&nbsp;</label>
+                <input required type="text" name="text" class="input" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Ingresa una dirección de correo electrónico válida">
+            </div>
+            <div class="forms">
+                <label class="label">¿Te gustan los juegos de mesa?&nbsp;</label>
+                <select id="select1" name="select1">
+                    <option value="nada">Elije una opción...</option>
+                    <option value="si">SI</option>
+                    <option value="no">NO</option>
+                </select>
+            </div>
+            <div class="forms">
+                <label class="label">¿Qué tipo de juego te interesa más?&nbsp;</label>
+                <select id="select1" name="select1">
+                    <option value="nada">Elije una opción...</option>
+                    <option value="cartas">Cartas</option>
+                    <option value="dados">Dados</option>
+                    <option value="losetas">Losetas</option>
+                    <option value="tablero">Tablero</option>
+                </select>
+            </div>
+            <div class="forms">
+                <label class="label">¿Sueles jugar?&nbsp;</label>
+                <select id="select2" name="select2">
+                    <option value="nada">Elije una opción...</option>
+                    <option value="si">SI</option>
+                    <option value="no">NO</option>
+                </select>
+            </div>
+            <div class="forms">
+                <div class="form1">
+                    <label class="label">Si tu respuesta ha sido si, ¿Cada cuánto?&nbsp;</label>
+                    <select id="select3" name="select3">
+                        <option value="nada">Elije una opción...</option>
+                        <option value="Muypoco">Muy poco (0-1 veces en semana)</option>
+                        <option value="Poco">Poco (2-3 veces en semana)</option>
+                        <option value="A diario">A diario (4-5 veces en semana)</option>
+                        <option value="Mucho">Mucho (6-7 veces en semana)</option>
+                        <option value="Demasiado">Demasiado (+8 veces en semana)</option>
+                    </select>
+                </div>
+                <div class="form2">
+                    <label class="label">&nbsp;Si tu respuesta ha sido no, ¿Por qué?&nbsp;</label>
+                    <select id="select4" name="select4">
+                        <option value="nada">Elije una opción...</option>
+                        <option value="tiempo">No tengo tiempo</option>
+                        <option value="solitario">No tengo con quién jugar</option>
+                        <option value="otracosa">Prefiero hacer otras cosas</option>
+                        <option value="otros">Otros...</option>
+                    </select>            
+                </div>
+            </div>
+            <div class="forms">
+                <label class="label">¿Te gustaría jugar más?&nbsp;</label>
+                <select id="select2" name="select2">
+                    <option value="nada">Elije una opción...</option>
+                    <option value="si">SI</option>
+                    <option value="no">NO</option>
+                </select>
+            </div>
+            <div class="forms">
+                <div class="form1">
+                    <label class="label">Recomiéndame un juego&nbsp;</label>
+                    <input type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç1234567890- ]+" title="Ingresa un nombre válido">
+                </div>
+                <div class="form2">
+                    <label class="label">&nbsp;¿De qué trata?&nbsp;</label>
+                    <input type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç1234567890 ]+" title="Ingresa un apodo válido">
+                </div>
+            </div>
+            <div class="forms">
+                <input type="submit" value = "Enviar">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <h2>Hecho por Pablo Aguilera</h2>
+    </footer>
+
+</body>
+</html>
