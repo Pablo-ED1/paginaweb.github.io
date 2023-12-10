@@ -1,0 +1,56 @@
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subsection5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.tops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30vw;
+    background-color:rgb(236, 236, 236);
+    color: black;
+    border-radius: 15px;
+    opacity: 80%;
+    margin: 25px;
+    padding: 15px;
+}
+
+.fotop1{
+    width: 110px;
+}
+
+.fotop2{
+    width: 110px;
+}
+
+
+.fotop3{
+    width: 160px;
+}
+
+
+.fotop4{
+    width: 110px;
+}
+
+
+.fotop5{
+    width: 110px;
+}
+
+.titulos{
+    display: flex;
+    justify-content: left;
+    padding: 18px 60px;
+}
+

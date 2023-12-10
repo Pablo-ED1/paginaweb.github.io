@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/styles4.css">
+    <link rel="icon" type="image/vnd.icon" href="/images/logo - copia.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,7 @@
         <nav class="menu">
             <a href="index.html">Inicio</a>
             <a href="tipos.html">Tipos</a>
+            <a href="top.html">Top 5</a>
             <a href="pasion.html">Mi pasión</a>
             <a href="encuesta.html">Encuesta</a>
         </nav>
@@ -29,11 +31,11 @@
             <h1>Encuesta</h1>
             <div class="forms">
                 <div class="form1">
-                    <label class="label">Nombre&nbsp;</label>
+                    <label class="label">Nombre&nbsp;</label><br>
                     <input required type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç ]+" title="Ingresa un nombre válido">
                 </div>
                 <div class="form2">
-                    <label class="label">&nbsp;Apodo&nbsp;</label>
+                    <label class="label">&nbsp;Apodo&nbsp;</label><br>
                     <input required type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç1234567890-_. ]+" title="Ingresa un apodo válido">
                 </div>
             </div>
@@ -67,28 +69,27 @@
                     <option value="no">NO</option>
                 </select>
             </div>
+            
             <div class="forms">
-                <div class="form1">
-                    <label class="label">Si tu respuesta ha sido si, ¿Cada cuánto?&nbsp;</label>
-                    <select id="select3" name="select3">
-                        <option value="nada">Elije una opción...</option>
-                        <option value="Muypoco">Muy poco (0-1 veces en semana)</option>
-                        <option value="Poco">Poco (2-3 veces en semana)</option>
-                        <option value="A diario">A diario (4-5 veces en semana)</option>
-                        <option value="Mucho">Mucho (6-7 veces en semana)</option>
-                        <option value="Demasiado">Demasiado (+8 veces en semana)</option>
-                    </select>
-                </div>
-                <div class="form2">
-                    <label class="label">&nbsp;Si tu respuesta ha sido no, ¿Por qué?&nbsp;</label>
-                    <select id="select4" name="select4">
-                        <option value="nada">Elije una opción...</option>
-                        <option value="tiempo">No tengo tiempo</option>
-                        <option value="solitario">No tengo con quién jugar</option>
-                        <option value="otracosa">Prefiero hacer otras cosas</option>
-                        <option value="otros">Otros...</option>
-                    </select>            
-                </div>
+                <label class="label">Si tu respuesta ha sido si, ¿Cada cuánto?&nbsp;</label>
+                <select id="select3" name="select3">
+                    <option value="nada">Elije una opción...</option>
+                    <option value="Muypoco">Muy poco (0-1 veces en semana)</option>
+                    <option value="Poco">Poco (2-3 veces en semana)</option>
+                    <option value="A diario">A diario (4-5 veces en semana)</option>
+                    <option value="Mucho">Mucho (6-7 veces en semana)</option>
+                    <option value="Demasiado">Demasiado (+8 veces en semana)</option>
+                </select>
+            </div>
+            <div class="forms">
+                <label class="label">&nbsp;Si tu respuesta ha sido no, ¿Por qué?&nbsp;</label>
+                <select id="select4" name="select4">
+                    <option value="nada">Elije una opción...</option>
+                    <option value="tiempo">No tengo tiempo</option>
+                    <option value="solitario">No tengo con quién jugar</option>
+                    <option value="otracosa">Prefiero hacer otras cosas</option>
+                    <option value="otros">Otros...</option>
+                </select>            
             </div>
             <div class="forms">
                 <label class="label">¿Te gustaría jugar más?&nbsp;</label>
@@ -100,11 +101,11 @@
             </div>
             <div class="forms">
                 <div class="form1">
-                    <label class="label">Recomiéndame un juego&nbsp;</label>
+                    <label class="label">Recomiéndame un juego&nbsp;</label><br>
                     <input type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç1234567890- ]+" title="Ingresa un nombre válido">
                 </div>
                 <div class="form2">
-                    <label class="label">&nbsp;¿De qué trata?&nbsp;</label>
+                    <label class="label">&nbsp;¿De qué trata?&nbsp;</label><br>
                     <input type="text" name="text" class="input" pattern="[A-Za-zñáéíóúç1234567890 ]+" title="Ingresa un apodo válido">
                 </div>
             </div>
@@ -115,7 +116,7 @@
     </section>
 
     <footer>
-        <h2>Hecho por Pablo Aguilera</h2>
+        <h3>Hecho por Pablo Aguilera</h3>
     </footer>
 
 </body>
